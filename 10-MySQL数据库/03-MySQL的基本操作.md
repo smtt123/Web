@@ -231,7 +231,7 @@ create table t_student3(
 **语法格式**：（复制现有的表 `table_xx1` 到 `table_xx2`）
 
 ```sql
-create table table_xx1 like 数据库名.table_xx2;
+create table table_xx2 like 数据库名.table_xx1;
 ```
 
 注意，这种复制模式，`table_xx2` 只会复制表 `table_xx1` 中的字段，不会复制表`table_xx1`中的数据。
